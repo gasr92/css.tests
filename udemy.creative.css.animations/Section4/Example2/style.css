@@ -1,0 +1,24 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center; /*horizontal*/
+    align-items: center; /*vertical*/
+}
+
+a{
+    text-decoration: none;
+    color: #351435;
+    font-family: sans-serif;
+    font-size: 40px;
+    border: 3px solid #351435;
+    padding: 40px 80px;
+    position: relative;
+    transition: all 1s;
+}
+
+a:before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+}
